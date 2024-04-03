@@ -4,29 +4,29 @@
  */
 export const envs = {
   development: {
-    DOMAIN: 'https://dev.linkwechat.net', // 站点域名，会用于判断环境
-    DOMAIN_MOBILE: 'https://dev.linkwechat.net/mobile', // linkwe-mobile (vue2) 移动端地址
+    DOMAIN: 'https://h2o-llm.elenet.me', // 站点域名，会用于判断环境
+    DOMAIN_MOBILE: 'https://h2o-llm.elenet.me/mobile', // linkwe-mobile (vue2) 移动端地址
     BASE_URL: '/', // 页面路由基础路径 /*/*/，eg：/lw/，不支持 ’./‘形式的路径
-    BASE_API: 'https://dev.linkwechat.net/linkwechat-api', // 接口基础路径
-    PRIVIEW_URL: 'https://dev.linkwechat.net/fileView/onlinePreview?url=', // kkfileview，素材预览服务地址
+    BASE_API: 'https://h2o-llm.elenet.me/linkwechat-api', // 接口基础路径
+    PRIVIEW_URL: 'https://h2o-llm.elenet.me/fileView/onlinePreview?url=', // kkfileview，素材预览服务地址
     _ISGZIP: true, // 是否开启gzip压缩
     _ISCDN: false, // 是否开启cdn加速
   },
   test: {
-    DOMAIN: 'https://demo.linkwechat.net',
-    DOMAIN_MOBILE: 'https://demo.linkwechat.net/mobile',
+    DOMAIN: 'https://h2o-llm.elenet.me',
+    DOMAIN_MOBILE: 'https://h2o-llm.elenet.me/mobile',
     BASE_URL: '/', // 路由基础路径
-    BASE_API: 'https://demo.linkwechat.net/linkwechat-api',
-    PRIVIEW_URL: 'https://demo.linkwechat.net/fileView/onlinePreview?url=', // kkfileview，素材预览服务地址
+    BASE_API: 'https://h2o-llm.elenet.me/linkwechat-api',
+    PRIVIEW_URL: 'https://h2o-llm.elenet.me/fileView/onlinePreview?url=', // kkfileview，素材预览服务地址
     _ISGZIP: true,
     _ISCDN: false,
   },
   production: {
-    DOMAIN: 'https://demo.linkwechat.net',
-    DOMAIN_MOBILE: 'https://demo.linkwechat.net/mobile',
+    DOMAIN: 'https://h2o-llm.elenet.me',
+    DOMAIN_MOBILE: 'https://h2o-llm.elenet.me/mobile',
     BASE_URL: '/', // 路由基础路径
-    BASE_API: 'https://demo.linkwechat.net/linkwechat-api',
-    PRIVIEW_URL: 'https://demo.linkwechat.net/fileView/onlinePreview?url=', // kkfileview，素材预览服务地址
+    BASE_API: 'https://h2o-llm.elenet.me/linkwechat-api',
+    PRIVIEW_URL: 'https://h2o-llm.elenet.me/fileView/onlinePreview?url=', // kkfileview，素材预览服务地址
     _ISGZIP: true,
     _ISCDN: false,
   },
